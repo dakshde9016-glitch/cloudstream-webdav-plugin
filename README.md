@@ -38,7 +38,8 @@ Tap the link below on your Android device to register the repository directly in
 
 **[Add WebDAV Repository to Cloudstream](cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin)**
 
-*(Manual scheme URI: `cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin`)*
+[![Add to Cloudstream](https://img.shields.io/badge/Add%20to-Cloudstream-blue?style=for-the-badge&logo=android)](https://recloudstream.github.io/redirect/?url=cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin)
+
 
 #### Method 2: Direct Raw GitHub URL
 1. Open Cloudstream $\rightarrow$ navigate to **Settings** $\rightarrow$ **Extensions**.
