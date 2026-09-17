@@ -7,6 +7,7 @@ plugins {
 cloudstream {
     description = "Streams movies and series directly from private WebDAV server"
     authors = listOf("Daksh")
+    version = 1
     status = 2
     tvTypes = listOf("Movie", "TvSeries")
     language = "en"
@@ -15,4 +16,8 @@ cloudstream {
 
 android {
     namespace = "com.daksh.webdav"
+    defaultConfig {
+        versionCode = 1
+        versionName = "1.0.0"
+    }
 }
