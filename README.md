@@ -33,17 +33,7 @@ It supports KV caching which caches your GDrive directory on the edge reducing l
 
 ### Installation
 
-#### Method 1: One-Click Deep Link (Fastest)
-Tap the link below on your Android device to register the repository directly in Cloudstream:
-
-**[Add WebDAV Repository to Cloudstream](cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin)**
-
-[Add to Cloudstream](https://intent.to/cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin)
-
-
-
-
-#### Method 2: Direct Raw GitHub URL
+####  Direct Raw GitHub URL
 1. Open Cloudstream $\rightarrow$ navigate to **Settings** $\rightarrow$ **Extensions**.
 2. Tap **Add Repository**.
 3. Enter any repository name (e.g., `WebDAV`).
