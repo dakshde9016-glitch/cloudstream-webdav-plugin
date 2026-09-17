@@ -1,0 +1,23 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/recloudstream/cloudstream/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+        "fileHash": "sha256-4db25a5032c0a39d67544985a87dccce4e988ed872bfdbc9380ee9e750470629",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/dakshde9016-glitch/cloudstream-webdav-plugin",
+        "fileSize": 23421,
+        "status": 2,
+        "language": "en",
+        "authors": [
+            "Daksh"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": -1,
+        "internalName": "WebDAVProvider",
+        "description": "Streams movies and series directly from private WebDAV server",
+        "url": "https://raw.githubusercontent.com/dakshde9016-glitch/cloudstream-webdav-plugin/builds/WebDAVProvider.cs3",
+        "name": "WebDAVProvider"
+    }
+]
