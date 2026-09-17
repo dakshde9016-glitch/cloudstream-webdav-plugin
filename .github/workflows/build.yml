@@ -51,6 +51,17 @@ jobs:
       - name: Generate Repository Plugins JSON Manifest
         run: ./gradlew makePluginsJson
 
+      - name: Collect Build Artifacts
+        run: |
+          mkdir -p build
+          # Copy all generated .cs3 files into root build folder for deployment
+          find . -name "*.cs3" -exec cp -v {} build/ \;
+          if [ -f "repo.json" ]; then
+            cp -v repo.json build/
+          fi
+          echo "=== Content of build folder to deploy ==="
+          ls -la build/
+
       - name: Deploy to Orphan Builds Branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
