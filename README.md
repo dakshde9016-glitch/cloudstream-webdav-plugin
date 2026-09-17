@@ -53,4 +53,3 @@ It supports KV caching which caches your GDrive directory on the edge reducing l
    * **Password:** Your WebDAV password or access token.
    * **Root Path:** The base folder containing your media files (e.g., `/Media` or `/Movies`).
 5. Save your settings. Your files will now populate under Cloudstream's browse and search views.
-6. 
