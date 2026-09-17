@@ -38,7 +38,8 @@ Tap the link below on your Android device to register the repository directly in
 
 **[Add WebDAV Repository to Cloudstream](cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin)**
 
-[Add to Cloudstream](https://cloudstream.cf/add/dakshde9016-glitch/cloudstream-webdav-plugin)
+[Add to Cloudstream](https://intent.to/cloudstreamrepo://dakshde9016-glitch/cloudstream-webdav-plugin)
+
 
 
 
