@@ -1,0 +1,8 @@
+{
+  "name": "WebDAV Repository",
+  "description": "Cloudstream WebDAV Provider",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/dakshde9016-glitch/cloudstream-webdav-plugin/builds/plugins.json"
+  ]
+}
