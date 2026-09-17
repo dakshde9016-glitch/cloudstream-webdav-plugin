@@ -11,9 +11,11 @@ A provider extension for [Cloudstream](https://github.com/recloudstream/cloudstr
 
 ### Optimized for Google Drive WebDAV Workers
 
+Works for all kinds of WebDAV protocols but it's a powerful tool if used with an existing project.
 This provider was developed specifically for use alongside **[ixiumu/google-drive-webdav-workers](https://github.com/ixiumu/google-drive-webdav-workers)**. 
 
 Deploying that Cloudflare Worker provides a serverless WebDAV gateway directly into your personal Google Drive storage. Connecting this provider to the worker turns Cloudstream into a high-speed personal media streamer with fast directory traversal, rapid seek response, and zero maintenance overhead.
+It supports KV caching which caches your GDrive directory on the edge reducing loading times.
 
 ---
 
@@ -25,7 +27,6 @@ Deploying that Cloudflare Worker provides a serverless WebDAV gateway directly i
   * Nextcloud / ownCloud
   * AList, Apache, or Nginx WebDAV modules
 * **HTTP & HTTPS Compatibility:** Supports both encrypted `https://` endpoints and local unencrypted `http://` network paths.
-* **Direct Player Passthrough:** Hands streams off to Cloudstream's native media engines (ExoPlayer / MPV) with hardware-accelerated video decoding.
 * **HTTP Basic Authentication:** Fully supports credentials protection (username and password).
 
 ---
