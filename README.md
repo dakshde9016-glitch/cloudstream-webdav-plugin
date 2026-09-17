@@ -44,12 +44,13 @@ It supports KV caching which caches your GDrive directory on the edge reducing l
 
 ### Setup & Configuration
 
-In Cloudstream, open Settings \rightarrow Extensions and select your newly added WebDAV repository.
-Locate the WebDAV plugin and tap Download / Install.
-Once the installation completes, tap Configure Plugin (or tap the plugin entry \rightarrow settings icon).
-Enter your WebDAV server details:
-Server URL: Your full WebDAV endpoint URL (e.g., https://my-worker.workers.dev or http://192.168.1.50:8080).
-Username: Your WebDAV account username (leave blank if unauthenticated).
-Password: Your WebDAV password or access token.
-Root Path: The base folder containing your media files (e.g., /Media or /Movies).
-Save your settings. Your files will now populate under Cloudstream's browse and search views.   
+1. In Cloudstream, open **Settings** → **Extensions** and select your newly added **WebDAV** repository.
+2. Locate the **WebDAV** plugin and tap **Download / Install**.
+3. Once the installation completes, tap **Configure Plugin** (or tap the plugin entry → settings icon).
+4. Enter your WebDAV server details:
+   * **Server URL:** Your full WebDAV endpoint URL (e.g., `https://my-worker.workers.dev` or `http://192.168.1.50:8080`).
+   * **Username:** Your WebDAV account username (leave blank if unauthenticated).
+   * **Password:** Your WebDAV password or access token.
+   * **Root Path:** The base folder containing your media files (e.g., `/Media` or `/Movies`).
+5. Save your settings. Your files will now populate under Cloudstream's browse and search views.
+6. 
