@@ -37,7 +37,7 @@ It supports KV caching which caches your GDrive directory on the edge reducing l
 1. Open Cloudstream $\rightarrow$ navigate to **Settings** $\rightarrow$ **Extensions**.
 2. Tap **Add Repository**.
 3. Enter any repository name (e.g., `WebDAV`).
-4. Paste this exact raw GitHub URL into the repository link field:
+4. ⭐ Paste this exact raw GitHub URL into the repository link field:
    ```text
    https://raw.githubusercontent.com/dakshde9016-glitch/cloudstream-webdav-plugin/builds/repo.json
 5. Tap Add Repository.
